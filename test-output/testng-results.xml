@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results retried="3" ignored="0" total="5" passed="1" failed="1" skipped="0">
+=======
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+>>>>>>> branch 'master' of https://github.com/sncsrivalli/SeleniumA4.git
   <reporter-output>
+    <line>
+      <![CDATA[demo2]]>
+    </line>
+    <line>
+      <![CDATA[demo4]]>
+    </line>
+    <line>
+      <![CDATA[demo1]]>
+    </line>
+    <line>
+      <![CDATA[demo3]]>
+    </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-07-08T13:49:53 IST" name="Default suite" finished-at="2024-07-08T13:49:54 IST" duration-ms="83">
+=======
+  <suite started-at="2024-07-06T13:03:13 IST" name="Default suite" finished-at="2024-07-06T13:03:13 IST" duration-ms="46">
+>>>>>>> branch 'master' of https://github.com/sncsrivalli/SeleniumA4.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2024-07-08T13:49:53 IST" name="Default test" finished-at="2024-07-08T13:49:54 IST" duration-ms="83">
       <class name="retryAnalyzer.TestClass">
         <test-method signature="demo1()[pri:0, instance:retryAnalyzer.TestClass@6babf3bf]" started-at="2024-07-08T13:49:53 IST" name="demo1" finished-at="2024-07-08T13:49:54 IST" duration-ms="16" status="PASS">
@@ -50,9 +71,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
+=======
+    <test started-at="2024-07-06T13:03:13 IST" name="Default test" finished-at="2024-07-06T13:03:13 IST" duration-ms="46">
+      <class name="testng.PrioritizeTest">
+        <test-method signature="demo2()[pri:-2, instance:testng.PrioritizeTest@20ce78ec]" started-at="2024-07-06T13:03:13 IST" name="demo2" finished-at="2024-07-06T13:03:13 IST" duration-ms="5" status="PASS">
+>>>>>>> branch 'master' of https://github.com/sncsrivalli/SeleniumA4.git
           <reporter-output>
+            <line>
+              <![CDATA[demo2]]>
+            </line>
           </reporter-output>
         </test-method> <!-- demo2 -->
+<<<<<<< HEAD
         <test-method retried="true" signature="demo2()[pri:0, instance:retryAnalyzer.TestClass@6babf3bf]" started-at="2024-07-08T13:49:54 IST" name="demo2" finished-at="2024-07-08T13:49:54 IST" duration-ms="2" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
@@ -180,6 +210,30 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- demo2 -->
       </class> <!-- retryAnalyzer.TestClass -->
+=======
+        <test-method signature="demo4()[pri:-1, instance:testng.PrioritizeTest@20ce78ec]" started-at="2024-07-06T13:03:13 IST" name="demo4" finished-at="2024-07-06T13:03:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[demo4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method signature="demo1()[pri:0, instance:testng.PrioritizeTest@20ce78ec]" started-at="2024-07-06T13:03:13 IST" name="demo1" finished-at="2024-07-06T13:03:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[demo1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method signature="demo3()[pri:2, instance:testng.PrioritizeTest@20ce78ec]" started-at="2024-07-06T13:03:13 IST" name="demo3" finished-at="2024-07-06T13:03:13 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[demo3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- testng.PrioritizeTest -->
+>>>>>>> branch 'master' of https://github.com/sncsrivalli/SeleniumA4.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
