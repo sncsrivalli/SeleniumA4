@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="retryAnalyzer.TestClass">
+      <class name="testng.FlipkartScrollTest">
         <methods>
-          <include name="demo2"/>
+          <include name="scrollTillElement"/>
         </methods>
-      </class> <!-- retryAnalyzer.TestClass -->
+      </class> <!-- testng.FlipkartScrollTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
